@@ -1,0 +1,9 @@
+<svg id="Group_10322" data-name="Group 10322" xmlns="http://www.w3.org/2000/svg" width="17.188" height="16.619" viewBox="0 0 17.188 16.619">
+  <circle id="Ellipse_138" data-name="Ellipse 138" cx="4.574" cy="4.574" r="4.574" transform="translate(8.04 7.471)" fill="#f3c65d"/>
+  <g id="calendar">
+    <path id="Path_11590" data-name="Path 11590" d="M11.234,1.183h-.591V.591a.591.591,0,0,0-1.183,0v.591H4.73V.591a.591.591,0,0,0-1.183,0v.591H2.956A2.96,2.96,0,0,0,0,4.139v7.1a2.96,2.96,0,0,0,2.956,2.956h8.278a2.96,2.96,0,0,0,2.956-2.956v-7.1A2.96,2.96,0,0,0,11.234,1.183ZM1.183,4.139A1.774,1.774,0,0,1,2.956,2.365h8.278a1.774,1.774,0,0,1,1.774,1.774V4.73H1.183Zm10.052,8.869H2.956a1.774,1.774,0,0,1-1.774-1.774V5.913H13.008v5.321A1.774,1.774,0,0,1,11.234,13.008Z"/>
+    <circle id="Ellipse_135" data-name="Ellipse 135" cx="0.887" cy="0.887" r="0.887" transform="translate(6.208 7.982)"/>
+    <circle id="Ellipse_136" data-name="Ellipse 136" cx="0.887" cy="0.887" r="0.887" transform="translate(3.252 7.982)"/>
+    <circle id="Ellipse_137" data-name="Ellipse 137" cx="0.887" cy="0.887" r="0.887" transform="translate(9.165 7.982)"/>
+  </g>
+</svg>

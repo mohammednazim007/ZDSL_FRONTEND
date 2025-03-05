@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.14" height="37.845" viewBox="0 0 32.14 37.845">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3c65d"/>
+      <stop offset="1" stop-color="#e59f00"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_9626" data-name="Group 9626" transform="translate(-288.574 -156.479)">
+    <path id="Path_13723" data-name="Path 13723" d="M10.693,5.347A5.347,5.347,0,1,1,5.347,0,5.347,5.347,0,0,1,10.693,5.347Z" transform="translate(289.499 158.155)" fill="url(#linear-gradient)"/>
+    <g id="git-compare-outline" transform="translate(290.074 157.979)">
+      <path id="Path_13719" data-name="Path 13719" d="M4.583,9.166,0,4.583,4.583,0" transform="translate(14.246 2.144)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="3"/>
+      <path id="Path_13720" data-name="Path 13720" d="M0,0,4.583,4.583,0,9.166" transform="translate(11.883 25.058)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="3"/>
+      <ellipse id="Ellipse_304" data-name="Ellipse 304" cx="5.082" cy="5.082" rx="5.082" ry="5.082" transform="translate(0)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="3"/>
+      <ellipse id="Ellipse_305" data-name="Ellipse 305" cx="3.437" cy="3.437" rx="3.437" ry="3.437" transform="translate(22.266 26.204)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="3"/>
+      <path id="Path_13721" data-name="Path 13721" d="M0,0H6.015a4.3,4.3,0,0,1,4.3,4.3V19.477" transform="translate(15.391 6.727)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="3"/>
+      <path id="Path_13722" data-name="Path 13722" d="M10.311,19.477H4.3a4.3,4.3,0,0,1-4.3-4.3V0" transform="translate(5.008 10.164)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="3"/>
+    </g>
+  </g>
+</svg>

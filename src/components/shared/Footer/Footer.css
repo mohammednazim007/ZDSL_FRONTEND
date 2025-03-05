@@ -1,0 +1,24 @@
+/* Add this to your styles.css or global.css */
+.footer-link {
+  position: relative;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.footer-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: -100%;
+  background-color: currentColor;
+  color: #e59f00;
+  transition: left 0.3s ease;
+}
+
+.footer-link:hover::after {
+  left: 0;
+}

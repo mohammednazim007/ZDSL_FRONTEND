@@ -1,0 +1,638 @@
+[
+  {
+    "_id": "67012a5b777a2a863df0b123",
+    "projectTitle": "Stylish Condominiums in Dhanmondi | Urban Living",
+    "aboutProject": "This project features stylish condominium apartments, providing a perfect blend of comfort and luxury while situated in a vibrant urban area.",
+    "description": "A contemporary residential complex featuring luxurious living spaces with top-of-the-line amenities.",
+    "projectType": "Residential",
+    "projectStatus": "Ongoing",
+    "projectLocation": {
+      "address": "Dhanmondi 15",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1209",
+      "latitude": "23.7491",
+      "longitude": "90.3848",
+      "projectZone": "Dhanmondi"
+    },
+    "images": [
+      {
+        "path": "https://images.unsplash.com/photo-1613457020741-41c7b4c158f0?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1231" }
+      },
+      {
+        "path": "https://images.unsplash.com/photo-1510918877711-685c46a3d8f2?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1232" }
+      },
+      {
+        "path": "https://images.unsplash.com/photo-1542067508-21a15e9a8916?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1233" }
+      }
+    ],
+    "basementNo": 1,
+    "floorNo": 10,
+    "buildingStoried": "B+G+9",
+    "googleMapIframeCode": "https://www.google.com/maps/embed?pb=!1m18...",
+    "videoUrl": "promo_video_1.mp4",
+    "virtualTourLink": "virtualtour_link_1",
+    "projectBrochure": "https://example.com/brochure1.pdf",
+    "expectedStartDate": { "$date": "2023-01-01T00:00:00.000Z" },
+    "expectedHandoverDate": { "$date": "2024-12-12T00:00:00.000Z" },
+    "salesManager": [{ "$oid": "66dfe2b10d3ebd0393dbe829" }],
+    "projectFacing": "East",
+    "chauhaddiOfLand": {
+      "east": "50",
+      "west": "50",
+      "north": "50",
+      "south": "50"
+    },
+    "category": { "$oid": "66e5b01c96bb66f7a4240cd3" },
+    "subCategory": { "$oid": "6700152b3bfbc11cec8155a1" },
+    "salesStatus": "Available",
+    "landArea": "10 katha",
+    "cctvAccessRole": "Admin",
+    "isCctvAccess": true,
+    "carParkingSlot": 5,
+    "projectFeatures": [{ "$oid": "66f4b44c9a58f332285981bd" }],
+    "facilities": [
+      {
+        "facility": "Swimming Pool",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b323" }
+      },
+      {
+        "facility": "Gym",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b324" }
+      }
+    ],
+    "nearbyFacilities": {
+      "hospital": [
+        {
+          "facility": "Apollo Hospital",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b327" }
+        }
+      ],
+      "shoppingMall": [
+        {
+          "facility": "Dhanmondi DCC Market",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b328" }
+        }
+      ],
+      "institute": [
+        {
+          "facility": "International School",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b329" }
+        }
+      ]
+    },
+    "agreementTemplates": [
+      { "template": { "$oid": "66e979172eca528b35a90c5f" }, "isDeleted": false }
+    ],
+    "isFeatured": false,
+    "isClosed": false,
+    "isSuspended": false,
+    "isDeleted": false,
+    "thumbnailImage": "https://images.unsplash.com/photo-1560185127-bc36ce01f6e5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "createdAt": { "$date": "2024-10-01T12:00:27.796Z" },
+    "updatedAt": { "$date": "2024-10-13T06:50:25.020Z" },
+    "__v": 0,
+    "isBestProject": false
+  },
+  {
+    "_id": "67012a5b777a2a863df0b124",
+    "projectTitle": "Elegant Apartments in Banani | Urban Oasis",
+    "aboutProject": "These elegant apartments offer a blend of sophistication and modern amenities.",
+    "description": "Experience urban living at its best with luxurious facilities and spacious units.",
+    "projectType": "Residential",
+    "projectStatus": "Ongoing",
+    "projectLocation": {
+      "address": "Banani 10",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1213",
+      "latitude": "23.7809",
+      "longitude": "90.4065",
+      "projectZone": "Banani"
+    },
+    "images": [
+      {
+        "path": "https://images.unsplash.com/photo-1580000000001-123456789012?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1241" }
+      },
+      {
+        "path": "https://images.unsplash.com/photo-1580000000002-123456789012?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1242" }
+      },
+      {
+        "path": "https://images.unsplash.com/photo-1580000000003-123456789012?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1243" }
+      }
+    ],
+    "basementNo": 2,
+    "floorNo": 12,
+    "buildingStoried": "B+G+11",
+    "googleMapIframeCode": "https://www.google.com/maps/embed?pb=!1m18...",
+    "videoUrl": "promo_video_2.mp4",
+    "virtualTourLink": "virtualtour_link_2",
+    "projectBrochure": "https://example.com/brochure2.pdf",
+    "expectedStartDate": { "$date": "2023-02-01T00:00:00.000Z" },
+    "expectedHandoverDate": { "$date": "2025-01-01T00:00:00.000Z" },
+    "salesManager": [{ "$oid": "66dfe2b10d3ebd0393dbe830" }],
+    "projectFacing": "West",
+    "chauhaddiOfLand": {
+      "east": "40",
+      "west": "40",
+      "north": "40",
+      "south": "40"
+    },
+    "category": { "$oid": "66e5b01c96bb66f7a4240cd4" },
+    "subCategory": { "$oid": "6700152b3bfbc11cec8155a2" },
+    "salesStatus": "Available",
+    "landArea": "12 katha",
+    "cctvAccessRole": "Admin",
+    "isCctvAccess": true,
+    "carParkingSlot": 6,
+    "projectFeatures": [{ "$oid": "66f4b44c9a58f332285981be" }],
+    "facilities": [
+      {
+        "facility": "Roof Top Garden",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b325" }
+      },
+      {
+        "facility": "Children's Play Area",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b326" }
+      }
+    ],
+    "nearbyFacilities": {
+      "hospital": [
+        {
+          "facility": "United Hospital",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b327" }
+        }
+      ],
+      "shoppingMall": [
+        {
+          "facility": "Banani Super Market",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b328" }
+        }
+      ],
+      "institute": [
+        {
+          "facility": "Banani School",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b329" }
+        }
+      ]
+    },
+    "agreementTemplates": [
+      { "template": { "$oid": "66e979172eca528b35a90c5g" }, "isDeleted": false }
+    ],
+    "isFeatured": true,
+    "isClosed": false,
+    "isSuspended": false,
+    "isDeleted": false,
+    "thumbnailImage": "https://images.unsplash.com/photo-1560185008-b033106af5c3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "createdAt": { "$date": "2024-10-01T12:00:27.796Z" },
+    "updatedAt": { "$date": "2024-10-13T06:50:25.020Z" },
+    "__v": 0,
+    "isBestProject": true
+  },
+  {
+    "_id": "67012a5b777a2a863df0b125",
+    "projectTitle": "Luxury Homes in Gulshan | Serene Living",
+    "aboutProject": "Luxury homes that redefine modern living with a focus on serenity and comfort.",
+    "description": "Discover your dream home in a tranquil setting with exclusive amenities.",
+    "projectType": "Residential",
+    "projectStatus": "Ongoing",
+    "projectLocation": {
+      "address": "Gulshan 1",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1212",
+      "latitude": "23.7924",
+      "longitude": "90.3968",
+      "projectZone": "Gulshan"
+    },
+    "images": [
+      {
+        "path": "https://images.unsplash.com/photo-1613457020741-41c7b4c158f0?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1251" }
+      },
+      {
+        "path": "https://images.unsplash.com/photo-1613457020741-41c7b4c158f0?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1252" }
+      },
+      {
+        "path": "https://images.unsplash.com/photo-1613457020741-41c7b4c158f0?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1253" }
+      }
+    ],
+    "basementNo": 3,
+    "floorNo": 14,
+    "buildingStoried": "B+G+13",
+    "googleMapIframeCode": "https://www.google.com/maps/embed?pb=!1m18...",
+    "videoUrl": "promo_video_3.mp4",
+    "virtualTourLink": "virtualtour_link_3",
+    "projectBrochure": "https://example.com/brochure3.pdf",
+    "expectedStartDate": { "$date": "2023-03-01T00:00:00.000Z" },
+    "expectedHandoverDate": { "$date": "2025-02-01T00:00:00.000Z" },
+    "salesManager": [{ "$oid": "66dfe2b10d3ebd0393dbe831" }],
+    "projectFacing": "South",
+    "chauhaddiOfLand": {
+      "east": "60",
+      "west": "60",
+      "north": "60",
+      "south": "60"
+    },
+    "category": { "$oid": "66e5b01c96bb66f7a4240cd5" },
+    "subCategory": { "$oid": "6700152b3bfbc11cec8155a3" },
+    "salesStatus": "Available",
+    "landArea": "15 katha",
+    "cctvAccessRole": "Admin",
+    "isCctvAccess": true,
+    "carParkingSlot": 7,
+    "projectFeatures": [{ "$oid": "66f4b44c9a58f332285981bf" }],
+    "facilities": [
+      {
+        "facility": "Clubhouse",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b327" }
+      },
+      {
+        "facility": "Security Services",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b328" }
+      }
+    ],
+    "nearbyFacilities": {
+      "hospital": [
+        {
+          "facility": "Gulshan Medical Center",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b329" }
+        }
+      ],
+      "shoppingMall": [
+        {
+          "facility": "Gulshan Plaza",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b330" }
+        }
+      ],
+      "institute": [
+        {
+          "facility": "Gulshan International School",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b331" }
+        }
+      ]
+    },
+    "agreementTemplates": [
+      { "template": { "$oid": "66e979172eca528b35a90c5h" }, "isDeleted": false }
+    ],
+    "isFeatured": false,
+    "isClosed": false,
+    "isSuspended": false,
+    "isDeleted": false,
+    "thumbnailImage": "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "createdAt": { "$date": "2024-10-01T12:00:27.796Z" },
+    "updatedAt": { "$date": "2024-10-13T06:50:25.020Z" },
+    "__v": 0,
+    "isBestProject": false
+  },
+  {
+    "_id": "67012a5b777a2a863df0b126",
+    "projectTitle": "Modern Villas in Uttara | Luxurious Retreat",
+    "aboutProject": "Explore modern villas designed for luxurious living with exceptional facilities.",
+    "description": "A serene community with beautifully crafted villas that combine elegance and comfort.",
+    "projectType": "Residential",
+    "projectStatus": "Ongoing",
+    "projectLocation": {
+      "address": "Uttara 5",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1230",
+      "latitude": "23.8711",
+      "longitude": "90.3987",
+      "projectZone": "Uttara"
+    },
+    "images": [
+      {
+        "path": "https://images.unsplash.com/photo-1613457020741-41c7b4c158f0?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1261" }
+      },
+      {
+        "path": "https://images.unsplash.com/photo-1613457020741-41c7b4c158f0?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1262" }
+      },
+      {
+        "path": "https://images.unsplash.com/photo-1613457020741-41c7b4c158f0?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1263" }
+      }
+    ],
+    "basementNo": 2,
+    "floorNo": 8,
+    "buildingStoried": "B+G+7",
+    "googleMapIframeCode": "https://www.google.com/maps/embed?pb=!1m18...",
+    "videoUrl": "promo_video_4.mp4",
+    "virtualTourLink": "virtualtour_link_4",
+    "projectBrochure": "https://example.com/brochure4.pdf",
+    "expectedStartDate": { "$date": "2023-04-01T00:00:00.000Z" },
+    "expectedHandoverDate": { "$date": "2025-03-01T00:00:00.000Z" },
+    "salesManager": [{ "$oid": "66dfe2b10d3ebd0393dbe832" }],
+    "projectFacing": "North",
+    "chauhaddiOfLand": {
+      "east": "70",
+      "west": "70",
+      "north": "70",
+      "south": "70"
+    },
+    "category": { "$oid": "66e5b01c96bb66f7a4240cd6" },
+    "subCategory": { "$oid": "6700152b3bfbc11cec8155a4" },
+    "salesStatus": "Available",
+    "landArea": "20 katha",
+    "cctvAccessRole": "Admin",
+    "isCctvAccess": true,
+    "carParkingSlot": 8,
+    "projectFeatures": [{ "$oid": "66f4b44c9a58f332285981c0" }],
+    "facilities": [
+      {
+        "facility": "Private Garden",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b329" }
+      },
+      {
+        "facility": "Barbecue Area",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b330" }
+      }
+    ],
+    "nearbyFacilities": {
+      "hospital": [
+        {
+          "facility": "Uttara Medical Center",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b331" }
+        }
+      ],
+      "shoppingMall": [
+        {
+          "facility": "Uttara Mall",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b332" }
+        }
+      ],
+      "institute": [
+        {
+          "facility": "Uttara International School",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b333" }
+        }
+      ]
+    },
+    "agreementTemplates": [
+      { "template": { "$oid": "66e979172eca528b35a90c5i" }, "isDeleted": false }
+    ],
+    "isFeatured": true,
+    "isClosed": false,
+    "isSuspended": false,
+    "isDeleted": false,
+    "thumbnailImage": "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "createdAt": { "$date": "2024-10-01T12:00:27.796Z" },
+    "updatedAt": { "$date": "2024-10-13T06:50:25.020Z" },
+    "__v": 0,
+    "isBestProject": true
+  },
+  {
+    "_id": "67012a5b777a2a863df0b127",
+    "projectTitle": "Affordable Housing in Mirpur | Community Living",
+    "aboutProject": "Affordable housing project designed for families seeking community living.",
+    "description": "A vibrant community with affordable housing options and essential amenities.",
+    "projectType": "Residential",
+    "projectStatus": "Ongoing",
+    "projectLocation": {
+      "address": "Mirpur 12",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1216",
+      "latitude": "23.8277",
+      "longitude": "90.3621",
+      "projectZone": "Mirpur"
+    },
+    "images": [
+      {
+        "path": "https://images.unsplash.com/photo-1613457020741-41c7b4c158f0?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1271" }
+      },
+      {
+        "path": "https://images.unsplash.com/photo-1613457020741-41c7b4c158f0?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1272" }
+      },
+      {
+        "path": "https://images.unsplash.com/photo-1613457020741-41c7b4c158f0?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1273" }
+      }
+    ],
+    "basementNo": 1,
+    "floorNo": 6,
+    "buildingStoried": "B+G+5",
+    "googleMapIframeCode": "https://www.google.com/maps/embed?pb=!1m18...",
+    "videoUrl": "promo_video_5.mp4",
+    "virtualTourLink": "virtualtour_link_5",
+    "projectBrochure": "https://example.com/brochure5.pdf",
+    "expectedStartDate": { "$date": "2023-05-01T00:00:00.000Z" },
+    "expectedHandoverDate": { "$date": "2025-04-01T00:00:00.000Z" },
+    "salesManager": [{ "$oid": "66dfe2b10d3ebd0393dbe833" }],
+    "projectFacing": "East",
+    "chauhaddiOfLand": {
+      "east": "40",
+      "west": "40",
+      "north": "40",
+      "south": "40"
+    },
+    "category": { "$oid": "66e5b01c96bb66f7a4240cd7" },
+    "subCategory": { "$oid": "6700152b3bfbc11cec8155a5" },
+    "salesStatus": "Available",
+    "landArea": "8 katha",
+    "cctvAccessRole": "Admin",
+    "isCctvAccess": false,
+    "carParkingSlot": 3,
+    "projectFeatures": [{ "$oid": "66f4b44c9a58f332285981c1" }],
+    "facilities": [
+      {
+        "facility": "Community Hall",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b331" }
+      },
+      {
+        "facility": "Playground",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b332" }
+      }
+    ],
+    "nearbyFacilities": {
+      "hospital": [
+        {
+          "facility": "Mirpur Hospital",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b333" }
+        }
+      ],
+      "shoppingMall": [
+        {
+          "facility": "Mirpur Market",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b334" }
+        }
+      ],
+      "institute": [
+        {
+          "facility": "Mirpur High School",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b335" }
+        }
+      ]
+    },
+    "agreementTemplates": [
+      { "template": { "$oid": "66e979172eca528b35a90c5j" }, "isDeleted": false }
+    ],
+    "isFeatured": false,
+    "isClosed": false,
+    "isSuspended": false,
+    "isDeleted": false,
+    "thumbnailImage": "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "createdAt": { "$date": "2024-10-01T12:00:27.796Z" },
+    "updatedAt": { "$date": "2024-10-13T06:50:25.020Z" },
+    "__v": 0,
+    "isBestProject": false
+  },
+  {
+    "_id": "67012a5b777a2a863df0b128",
+    "projectTitle": "Green Eco Homes in Savar | Sustainable Living",
+    "aboutProject": "Eco-friendly homes designed for sustainable living with a focus on community.",
+    "description": "A green community with eco-friendly practices and sustainable architecture.",
+    "projectType": "Residential",
+    "projectStatus": "Ongoing",
+    "projectLocation": {
+      "address": "Savar 1",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "zipCode": "1340",
+      "latitude": "23.8977",
+      "longitude": "90.3913",
+      "projectZone": "Savar"
+    },
+    "images": [
+      {
+        "path": "https://images.unsplash.com/photo-1613457020741-41c7b4c158f0?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1281" }
+      },
+      {
+        "path": "https://images.unsplash.com/photo-1613457020741-41c7b4c158f0?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1282" }
+      },
+      {
+        "path": "https://images.unsplash.com/photo-1613457020741-41c7b4c158f0?q=80&w=2076",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b1283" }
+      }
+    ],
+    "basementNo": 1,
+    "floorNo": 5,
+    "buildingStoried": "B+G+4",
+    "googleMapIframeCode": "https://www.google.com/maps/embed?pb=!1m18...",
+    "videoUrl": "promo_video_6.mp4",
+    "virtualTourLink": "virtualtour_link_6",
+    "projectBrochure": "https://example.com/brochure6.pdf",
+    "expectedStartDate": { "$date": "2023-06-01T00:00:00.000Z" },
+    "expectedHandoverDate": { "$date": "2025-05-01T00:00:00.000Z" },
+    "salesManager": [{ "$oid": "66dfe2b10d3ebd0393dbe834" }],
+    "projectFacing": "West",
+    "chauhaddiOfLand": {
+      "east": "50",
+      "west": "50",
+      "north": "50",
+      "south": "50"
+    },
+    "category": { "$oid": "66e5b01c96bb66f7a4240cd8" },
+    "subCategory": { "$oid": "6700152b3bfbc11cec8155a6" },
+    "salesStatus": "Available",
+    "landArea": "12 katha",
+    "cctvAccessRole": "User",
+    "isCctvAccess": false,
+    "carParkingSlot": 5,
+    "projectFeatures": [{ "$oid": "66f4b44c9a58f332285981c2" }],
+    "facilities": [
+      {
+        "facility": "Community Garden",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b332" }
+      },
+      {
+        "facility": "Nature Trails",
+        "isDeleted": false,
+        "_id": { "$oid": "67012a5b777a2a863df0b333" }
+      }
+    ],
+    "nearbyFacilities": {
+      "hospital": [
+        {
+          "facility": "Savar Hospital",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b334" }
+        }
+      ],
+      "shoppingMall": [
+        {
+          "facility": "Savar Market",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b335" }
+        }
+      ],
+      "institute": [
+        {
+          "facility": "Savar International School",
+          "isDeleted": false,
+          "_id": { "$oid": "67012a5b777a2a863df0b336" }
+        }
+      ]
+    },
+    "agreementTemplates": [
+      { "template": { "$oid": "66e979172eca528b35a90c5k" }, "isDeleted": false }
+    ],
+    "isFeatured": true,
+    "isClosed": false,
+    "isSuspended": false,
+    "isDeleted": false,
+    "thumbnailImage": "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "createdAt": { "$date": "2024-10-01T12:00:27.796Z" },
+    "updatedAt": { "$date": "2024-10-13T06:50:25.020Z" },
+    "__v": 0,
+    "isBestProject": false
+  }
+]

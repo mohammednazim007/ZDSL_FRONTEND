@@ -1,0 +1,60 @@
+{
+  "env": {
+    "node": true,
+    "es2021": true,
+    "browser": true
+  },
+  "plugins": ["prettier"],
+  "globals": {
+    "React": "readonly"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "next/core-web-vitals"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module",
+    "ecmaFeatures": { "jsx": true }
+  },
+
+  "rules": {
+    "no-shadow": "off",
+    "arrow-body-style": "off",
+    "import/extensions": "off",
+    "curly": ["error", "multi"],
+    "react/button-has-type": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": "off",
+    "import/prefer-default-export": "warn",
+    "semi": 0, // let it handle by prettier
+    "react/function-component-definition": "off",
+    "indent": "off", // let it handle by prettier
+    "max-len": "off", // let it handle by prettier
+    "comma-dangle": "off", // let it handle by prettier
+    "no-redeclare": "off", // let it handle by TypeScript
+    "react/jsx-indent": "off", // let it handle by prettier
+    "no-unused-vars": "off", // let it handle by TypeScript
+    "operator-linebreak": "off", // let it handle by prettier
+    "object-curly-newline": "off", // let it handle by prettier
+    "function-paren-newline": "off", // let it handle by prettier
+    "implicit-arrow-linebreak": "off", // let it handle by prettier
+    "react/require-default-props": "off", // let it handle by TypeScript
+    "nonblock-statement-body-position": "off", // let it handle by prettier
+    "react/jsx-one-expression-per-line": "off", // let it handle by prettier
+    "jsx-a11y/no-static-element-interactions": "warn",
+    "no-underscore-dangle": ["error", { "allow": ["_id"] }],
+    "react/no-array-index-key": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "@typescript-eslint/no-explicit-any": "warn", // or "error" if stricter enforcement is desired
+    "prettier/prettier": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "react/display-name": 0,
+    "curly": "off"
+  }
+}

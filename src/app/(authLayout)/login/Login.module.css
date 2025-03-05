@@ -1,0 +1,28 @@
+/* Media query for mobile devices */
+
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='number'],
+input[type='url'],
+input[type='date'],
+input[type='datetime-local'],
+input[type='month'],
+input[type='week'],
+input[type='time'],
+input[type='search'],
+input[type='tel'],
+input[type='checkbox'],
+input[type='radio'],
+select,
+select[multiple],
+textarea {
+  @apply  border-gray-200 shadow-sm rounded outline-none focus:outline-none focus:ring-primary focus:border-primary hover:border-primary transition-colors text-sm ;
+}
+
+@media (max-width: 768px) {
+    .button {
+      margin-top: 1rem; /* Adjust this value as needed */
+    }
+  }

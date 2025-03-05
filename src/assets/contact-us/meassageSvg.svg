@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42.28" height="42.28" viewBox="0 0 42.28 42.28">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3c65d"/>
+      <stop offset="1" stop-color="#e59f00"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_9764" data-name="Group 9764" transform="translate(-278.5 -159.5)">
+    <g id="Group_9626" data-name="Group 9626" transform="translate(-7.77 1.904)">
+      <path id="Path_13723" data-name="Path 13723" d="M8.829,4.415A4.415,4.415,0,1,1,4.415,0,4.415,4.415,0,0,1,8.829,4.415Z" transform="translate(302.995 184.703)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Path_15584" data-name="Path 15584" d="M25.64,36.551v-.015M19.393,19.093a6.522,6.522,0,0,1,6.247-4.364,6.831,6.831,0,0,1,2.182.355M25.64,31.875c0-7.014,6.547-5.456,6.547-10.911a5.962,5.962,0,0,0-.3-1.87M45.28,25.64A19.64,19.64,0,1,1,25.64,6,19.64,19.64,0,0,1,45.28,25.64Z" transform="translate(274 155)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="3"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3c65d"/>
+      <stop offset="1" stop-color="#e59f00"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_13970" data-name="Group 13970" transform="translate(-689 -137)">
+    <path id="Rectangle_9314" data-name="Rectangle 9314" d="M5,0H15a5,5,0,0,1,5,5V5a0,0,0,0,1,0,0H0A0,0,0,0,1,0,5V5A5,5,0,0,1,5,0Z" transform="translate(689 139)" fill="url(#linear-gradient)"/>
+    <path id="check-in-calendar" d="M.417,12.5H8.066l-2.2-2.2a.417.417,0,0,1,.589-.589l2.367,2.367a1.2,1.2,0,0,1,0,1.69L6.45,16.128a.417.417,0,1,1-.59-.589l2.2-2.2H.417a.417.417,0,1,1,0-.833ZM20,5.417V16.25A3.755,3.755,0,0,1,16.25,20H3.75A3.755,3.755,0,0,1,0,16.25v-.833a.417.417,0,0,1,.833,0v.833A2.92,2.92,0,0,0,3.75,19.167h12.5a2.92,2.92,0,0,0,2.917-2.917V7.5H.833v2.917a.417.417,0,1,1-.833,0v-5a3.755,3.755,0,0,1,3.75-3.75H5V.417a.417.417,0,1,1,.833,0v1.25h8.333V.417a.417.417,0,0,1,.833,0v1.25h1.25A3.755,3.755,0,0,1,20,5.417Zm-.833,1.25V5.417A2.92,2.92,0,0,0,16.25,2.5H3.75A2.92,2.92,0,0,0,.833,5.417v1.25Z" transform="translate(689 137)"/>
+  </g>
+</svg>

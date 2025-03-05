@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3c65d"/>
+      <stop offset="1" stop-color="#e59f00"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_13874" data-name="Group 13874" transform="translate(-176 -283)">
+    <rect id="Rectangle_9295" data-name="Rectangle 9295" width="10" height="5" rx="1" transform="translate(189 301)" fill="url(#linear-gradient)"/>
+    <path id="corporate-alt" d="M21,14a2,2,0,0,0-2-2H17a2,2,0,0,0-2,2,3,3,0,0,0-3,3v4a3,3,0,0,0,3,3h6a3,3,0,0,0,3-3V17A3,3,0,0,0,21,14Zm-4-1h2a1,1,0,0,1,1,1H16A1,1,0,0,1,17,13Zm-2,2h6a2,2,0,0,1,2,2v1H13V17A2,2,0,0,1,15,15Zm6,8H15a2,2,0,0,1-2-2V19h4.5v1.5a.5.5,0,0,0,1,0V19H23v2A2,2,0,0,1,21,23Zm-11,.5a.5.5,0,0,1-.5.5h-5A4.505,4.505,0,0,1,0,19.5V4.5A4.505,4.505,0,0,1,4.5,0h7A4.505,4.505,0,0,1,16,4.5v5a.5.5,0,0,1-1,0v-5A3.5,3.5,0,0,0,11.5,1h-7A3.5,3.5,0,0,0,1,4.5v15A3.5,3.5,0,0,0,4.5,23h5A.5.5,0,0,1,10,23.5Zm-3-10a.5.5,0,0,1-.5.5h-2a.5.5,0,0,1,0-1h2A.5.5,0,0,1,7,13.5Zm5,0a.5.5,0,0,1-.5.5h-2a.5.5,0,0,1,0-1h2A.5.5,0,0,1,12,13.5Zm-5,4a.5.5,0,0,1-.5.5h-2a.5.5,0,0,1,0-1h2A.5.5,0,0,1,7,17.5Zm0-12a.5.5,0,0,1-.5.5h-2a.5.5,0,0,1,0-1h2A.5.5,0,0,1,7,5.5Zm5,0a.5.5,0,0,1-.5.5h-2a.5.5,0,0,1,0-1h2A.5.5,0,0,1,12,5.5Zm-5,4a.5.5,0,0,1-.5.5h-2a.5.5,0,0,1,0-1h2A.5.5,0,0,1,7,9.5Zm5,0a.5.5,0,0,1-.5.5h-2a.5.5,0,0,1,0-1h2A.5.5,0,0,1,12,9.5Z" transform="translate(176 283)"/>
+  </g>
+</svg>

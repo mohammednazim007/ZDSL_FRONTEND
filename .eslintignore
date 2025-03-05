@@ -1,0 +1,3 @@
+#node_modules/
+#src/assets/svg
+#*.test.js

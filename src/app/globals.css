@@ -1,0 +1,506 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:hover {
+  scrollbar-color: auto;
+}
+
+body {
+  font-family: var(--font-poppins);
+  /* or, use className: font-[family-name:var(--font-poppins)] */
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: var(--font-oswald);
+  /* or, use className: font-[family-name:var(--font-oswald)] */
+}
+
+.font-osw {
+  font-family: var(--font-oswald);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-oswald);
+}
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='number'],
+input[type='url'],
+input[type='date'],
+input[type='datetime-local'],
+input[type='month'],
+input[type='week'],
+input[type='time'],
+input[type='search'],
+input[type='tel'] {
+  @apply form-input;
+}
+
+select {
+  @apply form-select;
+}
+
+textarea {
+  @apply form-textarea;
+}
+
+select[multiple] {
+  @apply form-multiselect;
+}
+
+input[type='radio'] {
+  @apply form-radio;
+}
+/* 
+input[type='checkbox'] {
+  @apply form-checkbox;
+} */
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='number'],
+input[type='url'],
+input[type='date'],
+input[type='datetime-local'],
+input[type='month'],
+input[type='week'],
+input[type='time'],
+input[type='search'],
+input[type='tel'],
+input[type='radio'],
+select,
+select[multiple],
+textarea {
+  @apply border-gray-200 shadow-sm rounded outline-none focus:outline-none focus:ring-primary focus:border-primary hover:border-primary transition-colors text-sm;
+}
+
+/* Scrollbar for WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0c0731; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0c0731; /* Color of the scrollbar handle */
+  border-radius: 10px; /* Rounded edges for the scrollbar handle */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Handle color on hover */
+}
+
+/* Scrollbar for Firefox */
+* {
+  scrollbar-width: thin; /* Makes the scrollbar thinner */
+  scrollbar-color: #0d072e #241f1fb7; /* thumb color and track color */
+}
+
+.react-multi-carousel-list {
+  overflow: visible !important;
+}
+
+/* hero section*/
+.carousel .list .item {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0 0 0 0;
+}
+.carousel .list .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carousel .list .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1; /* Ensuring the image has a lower z-index */
+}
+.carousel .list .item .content {
+  position: absolute;
+  top: 20%; /* Adjust this value if the content is too far from the top */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10; /* Ensure this is higher than the background image */
+}
+
+.carousel .list .item .author {
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+.carousel .list .item .title,
+.carousel .list .item .topic {
+  font-size: 5em;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+.carousel .list .item .buttons {
+  margin-top: 20px;
+}
+
+/* thumbail */
+.thumbnail {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  z-index: 100;
+  display: flex;
+  gap: 10px;
+}
+.thumbnail .item {
+  width: 150px;
+  height: 220px;
+  flex-shrink: 0;
+  position: relative;
+}
+.thumbnail .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.thumbnail .item .content {
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+.thumbnail .item .content .title {
+  font-weight: 500;
+}
+.thumbnail .item .content .description {
+  font-weight: 300;
+}
+/* arrows */
+.arrows {
+  position: absolute;
+  top: 80%;
+  right: 52%;
+  z-index: 100;
+  width: 300px;
+  max-width: 30%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* animation */
+.carousel .list .item:nth-child(1) {
+  z-index: 1;
+}
+
+/* animation text in first item */
+
+.carousel .list .item:nth-child(1) .content .author,
+.carousel .list .item:nth-child(1) .content .title,
+.carousel .list .item:nth-child(1) .content .topic,
+.carousel .list .item:nth-child(1) .content .des,
+.carousel .list .item:nth-child(1) .content .buttons {
+  transform: translateY(50px);
+  filter: blur(20px);
+  opacity: 0;
+  animation: showContent 0.5s 1s linear 1 forwards;
+}
+@keyframes showContent {
+  to {
+    transform: translateY(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.carousel .list .item:nth-child(1) .content .title {
+  animation-delay: 1.2s !important;
+}
+.carousel .list .item:nth-child(1) .content .topic {
+  animation-delay: 1.4s !important;
+}
+.carousel .list .item:nth-child(1) .content .des {
+  animation-delay: 1.6s !important;
+}
+.carousel .list .item:nth-child(1) .content .buttons {
+  animation-delay: 1.8s !important;
+}
+/* create animation when next click */
+.carousel.next .list .item:nth-child(1) img {
+  width: 150px;
+  height: 220px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  border-radius: 30px;
+  animation: showImage 0.5s linear 1 forwards;
+}
+@keyframes showImage {
+  to {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+}
+
+.carousel.next .thumbnail .item:nth-last-child(1) {
+  overflow: hidden;
+  animation: showThumbnail 0.5s linear 1 forwards;
+}
+.carousel.prev .list .item img {
+  z-index: 100;
+}
+@keyframes showThumbnail {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+}
+.carousel.next .thumbnail {
+  animation: effectNext 0.5s linear 1 forwards;
+}
+
+@keyframes effectNext {
+  from {
+    transform: translateX(150px);
+  }
+}
+
+/* running time */
+
+.carousel .time {
+  position: absolute;
+  z-index: 1000;
+  width: 0%;
+  height: 3px;
+  background-color: #fdd808;
+  left: 0;
+  top: 0;
+}
+
+.carousel.next .time,
+.carousel.prev .time {
+  animation: runningTime 3s linear 1 forwards;
+}
+@keyframes runningTime {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+
+/* prev click */
+
+.carousel.prev .list .item:nth-child(2) {
+  z-index: 2;
+}
+
+.carousel.prev .list .item:nth-child(2) img {
+  animation: outFrame 0.5s linear 1 forwards;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+@keyframes outFrame {
+  to {
+    width: 150px;
+    height: 220px;
+    bottom: 50px;
+    left: 50%;
+    border-radius: 20px;
+  }
+}
+
+.carousel.prev .thumbnail .item:nth-child(1) {
+  overflow: hidden;
+  opacity: 0;
+  animation: showThumbnail 0.5s linear 1 forwards;
+}
+.carousel.next .arrows button,
+.carousel.prev .arrows button {
+  pointer-events: none;
+}
+.carousel.prev .list .item:nth-child(2) .content .author,
+.carousel.prev .list .item:nth-child(2) .content .title,
+.carousel.prev .list .item:nth-child(2) .content .topic,
+.carousel.prev .list .item:nth-child(2) .content .des,
+.carousel.prev .list .item:nth-child(2) .content .buttons {
+  animation: contentOut 1.5s linear 1 forwards !important;
+}
+
+@keyframes contentOut {
+  to {
+    transform: translateY(-150px);
+    filter: blur(20px);
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 678px) {
+  .carousel .list .item .content {
+    padding-right: 0;
+  }
+  .carousel .list .item .content .title {
+    font-size: 30px;
+  }
+}
+/*  */
+
+.transformbg {
+  background-image: url('../assets/transformSpace/transform-building.png');
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, and Edge */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.scrollbar-hide {
+  scroll-behavior: smooth;
+}
+
+/* Project Filtering */
+input[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 2px;
+  background: transparent;
+  pointer-events: auto;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #f59e0b; /* Yellow thumb */
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+input[type='range']::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #f59e0b;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+input[type='range']::-ms-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #f59e0b;
+  cursor: pointer;
+}
+
+.bg-common {
+  background: transparent
+    linear-gradient(180deg, var(--unnamed-color-f3c65d) 0%, #e59f00 100%) 0% 0%
+    no-repeat padding-box;
+}
+
+input[type='checkbox'].checkboxNew:checked {
+  appearance: none;
+  background-color: transparent !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../assets/projects/checkbox.png');
+}
+
+.propertyFilterCheckbox {
+  @apply checkboxNew size-4 border-2 border-[#9A9CA3] rounded-[5px] focus:outline-none focus:ring-transparent cursor-pointer;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.table-scrollbar::-webkit-scrollbar {
+  appearance: none;
+  background: transparent;
+  @apply w-5 h-5 2xl:w-[1.2vw] 2xl:h-[1.2vw];
+}
+
+.table-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10000px;
+}
+
+.table-scrollbar::-webkit-scrollbar-thumb {
+  background: #bfbebe40;
+  background-clip: content-box;
+  border-radius: 10000px;
+  border: 8px solid transparent;
+  @apply 2xl:border-[0.5vw];
+}
+.table-scrollbar::-webkit-scrollbar-corner {
+  background-coor: transparent;
+}
+
+/* Styles for RC Slider */
+
+.custom-slider .rc-slider-rail {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  height: 8px;
+  position: absolute;
+}
+.custom-slider .rc-slider-handle {
+  background-color: #f5692b;
+  border: none;
+  height: 16px;
+  width: 16px;
+  opacity: 1;
+}
+.custom-slider .rc-slider-handle:focus,
+.custom-slider .rc-slider-handle:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border: transparent;
+}
+
+/* Style the filled area between the thumbs */
+.custom-slider .rc-slider-track {
+  background-color: #293a61;
+  height: 8px;
+}
+
+/* Style the unselected area */
+.custom-slider .rc-slider-track-inverted {
+  background-color: #fff;
+}

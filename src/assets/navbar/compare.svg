@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.815" height="28.035" viewBox="0 0 23.815 28.035">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3c65d"/>
+      <stop offset="1" stop-color="#e59f00"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_7662" data-name="Group 7662" transform="translate(0.568 1)">
+    <path id="Path_13723" data-name="Path 13723" d="M38.005,10a4,4,0,1,1-4-4A4,4,0,0,1,38.005,10Z" transform="translate(-30 -5.867)" fill="url(#linear-gradient)"/>
+    <path id="Path_15806" data-name="Path 15806" d="M35.04,8.52A2.52,2.52,0,1,1,32.52,6,2.52,2.52,0,0,1,35.04,8.52Z" transform="translate(-12.794 13.892)" fill="url(#linear-gradient)"/>
+    <g id="git-compare-outline" transform="translate(0.432 0)">
+      <path id="Path_13719" data-name="Path 13719" d="M3.431,6.862,0,3.431,3.431,0" transform="translate(10.665 1.605)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2"/>
+      <path id="Path_13720" data-name="Path 13720" d="M0,0,3.431,3.431,0,6.862" transform="translate(8.896 18.759)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2"/>
+      <ellipse id="Ellipse_304" data-name="Ellipse 304" cx="3.804" cy="3.804" rx="3.804" ry="3.804" transform="translate(0 0)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2"/>
+      <ellipse id="Ellipse_305" data-name="Ellipse 305" cx="2.573" cy="2.573" rx="2.573" ry="2.573" transform="translate(16.668 19.617)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2"/>
+      <path id="Path_13721" data-name="Path 13721" d="M0,0H4.5A3.216,3.216,0,0,1,7.719,3.216V14.581" transform="translate(11.522 5.036)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2"/>
+      <path id="Path_13722" data-name="Path 13722" d="M7.719,14.581h-4.5A3.216,3.216,0,0,1,0,11.364V0" transform="translate(3.749 7.609)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2"/>
+    </g>
+  </g>
+</svg>

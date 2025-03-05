@@ -1,0 +1,10 @@
+<svg id="bxs-map-pin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.051" height="15.051" viewBox="0 0 15.051 15.051">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3c65d"/>
+      <stop offset="1" stop-color="#e59f00"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_13626" data-name="Path 13626" d="M18.9,14.857l.724-1.448V9.688a2.9,2.9,0,1,0-1.448,0v3.722Z" transform="translate(-11.37 -4)" fill="url(#linear-gradient)"/>
+  <path id="Path_13627" data-name="Path 13627" d="M14.736,21.125l-.4,1.4c1.95.518,3.21,1.515,3.21,2.54,0,1.369-2.472,2.9-6.02,2.9s-6.02-1.526-6.02-2.9c0-1.025,1.261-2.022,3.211-2.541l-.4-1.4C5.653,21.832,4,23.34,4,25.06,4,27.495,7.306,29.4,11.525,29.4s7.525-1.908,7.525-4.343C19.051,23.34,17.4,21.832,14.736,21.125Z" transform="translate(-4 -14.352)" fill="#063354"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.769" height="24.458" viewBox="0 0 20.769 24.458">
+  <g id="Group_7662" data-name="Group 7662" transform="translate(0.629 1)">
+    <g id="git-compare-outline" transform="translate(0.371 0)">
+      <path id="Path_13719" data-name="Path 13719" d="M2.952,5.9,0,2.952,2.952,0" transform="translate(9.176 1.381)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2"/>
+      <path id="Path_13720" data-name="Path 13720" d="M0,0,2.952,2.952,0,5.9" transform="translate(7.654 16.14)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2"/>
+      <ellipse id="Ellipse_304" data-name="Ellipse 304" cx="3.273" cy="3.273" rx="3.273" ry="3.273" transform="translate(0 0)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2"/>
+      <ellipse id="Ellipse_305" data-name="Ellipse 305" cx="2.214" cy="2.214" rx="2.214" ry="2.214" transform="translate(14.341 16.878)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2"/>
+      <path id="Path_13721" data-name="Path 13721" d="M0,0H3.874A2.767,2.767,0,0,1,6.642,2.767v9.778" transform="translate(9.914 4.333)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2"/>
+      <path id="Path_13722" data-name="Path 13722" d="M6.642,12.545H2.767A2.767,2.767,0,0,1,0,9.778V0" transform="translate(3.226 6.547)" fill="none" stroke="#063354" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2"/>
+    </g>
+  </g>
+</svg>
