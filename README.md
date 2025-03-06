@@ -73,3 +73,33 @@ This project addresses several key challenges in the construction building manag
 
 - **Node.js**: Ensure you have Node.js installed on your machine.
 - **Docker**: Install Docker for containerized development and deployment.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/portfolio-with-next-js.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd <pathname>
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+1. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+2. Open your browser and navigate to `http://localhost:3000`.
