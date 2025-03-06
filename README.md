@@ -1,14 +1,75 @@
-![zdsl - art of living](https://media.licdn.com/dms/image/v2/C560BAQEARW6UgBcoiw/company-logo_200_200/company-logo_200_200/0/1659960902574?e=1736985600&v=beta&t=2A2kUUf9AGOHlgXkfunLqqyqjpUd6cGUV8V4Jw9r5bs)
+# Construction Building Project
 
-# Zubion Development Solutions Limited (ZDSL)
+## Overview
 
-> Zdsl promises to provide a complete solution of the people’s cherished residence focusing on quality, art, commitment, & **value for money** Zdsl has a skilled, experienced, & committed management team who are all graduated from the University of Dhaka. To achieve the ultimate mission & vision of the company, zdsl gathers widely experienced professionals, trained both at home and abroad, including civil engineers, structural engineers, & architects.
+The ZDSL Construction Management Platform (https://zdsl.com.bd/ ) is an innovative digital solution designed to transform how construction projects are monitored and managed. Tailored for stakeholders in the construction industry, this platform integrates advanced CCTV technology and intuitive workforce control tools to provide unparalleled transparency, efficiency, and accountability across building projects.
 
-# Deployment Links
+## Technologies Used
 
-This project is hosted into `VPS` so the current public IP addresses are:
+### Frontend
 
-| Scopes   | URL                                                     |
-| -------- | ------------------------------------------------------- |
-| `Client` | [Click Here](http://194.238.19.18/)                     |
-| `Server` | [Click Here](https://michiley.com/api/endpoint/graphql) |
+- **Next.js**: A React framework for server-side rendering and generating static websites.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Framer Motion**: A library for animations and gestures in React.
+- **React-PDF**: A library to create PDF documents using React components.
+- **Apollo Client**: A comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL.
+
+### Backend
+
+- **GraphQL**: A query language for your API, and a server-side runtime for executing queries by using a type system you define for your data.
+- **Apollo Server**: A community-driven, open-source GraphQL server that works with any GraphQL schema.
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Express**: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+
+### Database
+
+- **MongoDB**: A source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.
+
+### DevOps
+
+- **Docker**: A set of platform-as-a-service products that use OS-level virtualization to deliver software in packages called containers.
+- **GitHub Actions**: A CI/CD service that allows you to automate your build, test, and deployment pipeline.
+
+## Features
+
+### User Management
+
+- **Authentication**: Secure login and registration using JWT tokens.
+- **Social Logins**: Integration with Google and Facebook for social logins.
+- **User Dashboard**: A personalized dashboard for users to manage their profiles, view project details, and track their activities.
+
+### Project Management
+
+- **Project Listings**: Display a list of available projects with detailed information.
+- **Project Details**: View comprehensive details of each project, including images, descriptions, and features.
+- **Installment Management**: Track and manage installment payments for projects.
+- **Booking Agreements**: Generate and download booking agreements in PDF format.
+
+### Administrative Features
+
+- **Admin Dashboard**: A dedicated dashboard for administrators to manage users, projects, and other resources.
+- **GraphQL API**: A robust API for querying and mutating data, providing flexibility and efficiency.
+
+### Additional Features
+
+- **Responsive Design**: Optimized for various screen sizes and devices.
+- **Animations**: Smooth and interactive animations using Framer Motion.
+- **PDF Generation**: Create and view PDF documents directly within the application.
+
+## Problem Solved
+
+This project addresses several key challenges in the construction building management domain:
+
+1. **Centralized Management**: Provides a single platform for managing all aspects of construction building projects, from user interactions to administrative tasks.
+2. **User Engagement**: Enhances user experience with personalized dashboards, social logins, and interactive features.
+3. **Efficiency**: Streamlines processes such as installment tracking, booking agreements, and project management, reducing manual effort and errors.
+4. **Scalability**: Built with modern technologies that ensure the application can scale to handle a growing number of users and projects.
+5. **Security**: Implements robust authentication and authorization mechanisms to protect user data and ensure secure access.
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js**: Ensure you have Node.js installed on your machine.
+- **Docker**: Install Docker for containerized development and deployment.
