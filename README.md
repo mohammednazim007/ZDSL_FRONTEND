@@ -62,3 +62,64 @@ Our platform offers a comprehensive suite of services that streamline various as
 - **Responsive Design**: Optimized for various screen sizes and devices.
 - **Animations**: Smooth and interactive animations using Framer Motion.
 - **PDF Generation**: Create and view PDF documents directly within the application.
+
+## Problem Solved
+
+This project addresses several key challenges in the construction building management domain:
+
+1. **Centralized Management**: Provides a single platform for managing all aspects of construction building projects, from user interactions to administrative tasks.
+2. **User Engagement**: Enhances user experience with personalized dashboards, social logins, and interactive features.
+3. **Efficiency**: Streamlines processes such as installment tracking, booking agreements, and project management, reducing manual effort and errors.
+4. **Scalability**: Built with modern technologies that ensure the application can scale to handle a growing number of users and projects.
+5. **Security**: Implements robust authentication and authorization mechanisms to protect user data and ensure secure access.
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js**: Ensure you have Node.js installed on your machine.
+- **Docker**: Install Docker for containerized development and deployment.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/portfolio-with-next-js.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd <pathname>
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+1. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+2. Open your browser and navigate to `http://localhost:3000`.
+3. Explore the application and interact with its features.
+
+## Features
+
+- **Authentication**: Secure login and registration functionality.
+- **Project Management**: Create, edit, and manage projects.
+- **Task Management**: Assign and track tasks within projects.
+- **Invoice Management**: Generate and manage invoices for projects.
+- **Booking Agreements**: Create and manage booking agreements for projects.
+- **Installment Tracking**: Track and manage project installments.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
