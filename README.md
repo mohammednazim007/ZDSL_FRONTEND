@@ -2,8 +2,8 @@
 
 ![Screenshot 2025-03-06 150835](https://github.com/user-attachments/assets/c3595536-c28b-49cc-9dc4-de08ad6cc18b)
 
-> 📝 **Note:** This project requires (env) file which is not accessable. contact me
 ### Live Demo https://zdsl.com.bd/
+> 📝 **Note:** This project is required environment variables to run the project. Please contact me for more information.
 
 ## Overview
 
